@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-image: url('bg.jpeg');*/
+   /* background-size: cover; */
+   overflow: hidden;
+   height: 100vh;
+}
+.icons{
+    color: rgb(0, 0, 0);
+    font-family: 'Long Cang', cursive;
+    font-family: 'PT Sans', sans-serif;
+    align-content: center;
+    font-size: 14px;
+}
+
+
+.taskBar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;  
+    z-index: 110;  
+}
+.startMenu{
+    position: absolute;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startMenu img{
+    border-radius: 8px;
+}
+.right{
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
